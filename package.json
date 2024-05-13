@@ -1,0 +1,42 @@
+{
+  "name": "ms-ilyas-betest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest Test",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilyas3737/ilyas_betest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ilyas3737/ilyas_betest/issues"
+  },
+  "homepage": "https://github.com/ilyas3737/ilyas_betest#readme",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "debug": "^4.3.4",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.9",
+    "express": "^4.18.3",
+    "express-fileupload": "^1.4.3",
+    "https": "^1.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "jest": "^29.7.0",
+    "md5": "^2.3.0",
+    "mongodb": "^6.4.0",
+    "mongoose": "^8.2.1",
+    "path": "^0.12.7",
+    "redis":"^3.1.2",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0",
+    "supertest":"^7.0.0",
+    "uuid":"^9.0.1"
+  }
+}

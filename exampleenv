@@ -1,0 +1,7 @@
+PORT=3000
+DB=mongodb://dbs:27017/db_ilyas_betest
+SECRET=
+ISDEV=true
+TOKEN_SECRET=iwiqowqo39283983jskjdksdsk3u2328329sdnsmncmndsmjherheHHKdksdksjdqiqi
+REDIS_HOST=redis_ilyas_betest
+REDIS_PORT=6379
