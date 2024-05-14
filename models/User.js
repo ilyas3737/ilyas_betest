@@ -1,5 +1,8 @@
 
 const mongoose = require('mongoose');
+const dotenv = require('dotenv');
+
+dotenv.config();
 
 const userSchema = new mongoose.Schema({
   id: { type: String, required: true },
@@ -10,4 +13,3 @@ const userSchema = new mongoose.Schema({
 });
 
 module.exports = mongoose.model('User', userSchema);
-

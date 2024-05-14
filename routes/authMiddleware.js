@@ -1,6 +1,4 @@
 const jwt = require('jsonwebtoken');
-const db = require("../helper/db");
-const dbname = require("../helper/dbname");
 const constants = require("../helper/constants");
 
 const authentication = (req, res, next) => {

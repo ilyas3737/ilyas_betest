@@ -6,9 +6,9 @@ const jwt = require('jsonwebtoken'),
         cors = require('cors'),
         fileUpload = require('express-fileupload'),
         swaggerJsdoc = require("swagger-jsdoc"),
-        { MongoClient } = require('mongodb'),
         swaggerUi = require("swagger-ui-express");
 
+const db = require("./helper/db");
 dotenv.config();
 
 const PORT = process.env.PORT;
